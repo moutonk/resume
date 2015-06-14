@@ -1,0 +1,19 @@
+/*
+* Theme Name: Kurr
+* File name: style.css
+* Theme URL: kurr.mordorthemes.com
+* Description: Kurr - Responsive Resume, Personal Portfolio Template
+* Author: Mordorthemes
+* Author URL: http://www.mordorthemes.com
+* Support: support@mordorthemes.com
+* Version: 1.0
+*/
+
+@import url("normalize.css");
+@import url("foundation.css"); 
+@import url("kurr-font.css");
+@import url("owl.transitions.css");
+@import url("timeline.css");
+@import url("animate.css");
+@import url("magnific-popup.css");
+@import url("layout.css");

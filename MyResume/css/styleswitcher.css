@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+* Theme Name: Tangram  
+* File name: styleswitcher.css
+* Theme URL: tangram.mordorthemes.com
+* Description: Tangram - One page html/css website template
+* Author: Mordorthemes
+* Author URL: http://www.mordorthemes.com
+* Support: support@mordorthemes.com
+* Version: 1.0
+*/
+
+
+
+
+/* Main Style */
+.switcher h3 {
+	font-size:13px;
+	margin: 1px 0 3px 0;
+	color:#474646;
+}
+
+.switcher {
+	width:160px;
+	position:fixed !important;
+	top:185px;
+	z-index:9999;
+	left:0px;
+}
+
+.switcher h2 {
+	background: #000;
+	color: #FFFFFF;
+	padding: 0;
+	font-size: 13px;
+	text-transform:uppercase;
+	padding: 12px 0 12px 15px;
+	line-height: 30px;
+	position:relative;
+	top:8px;
+}
+
+.switcher h2 a {
+	background: #000;
+	display: block;
+	height: 53px;
+	position: absolute;
+	right: -53px;
+	top: 0;
+	width: 53px;
+	text-align:center;
+	color:#fff;
+	font-size:32px;
+	padding: 9px 0;
+}
+
+.switcher .content2 {
+	
+	overflow:hidden;
+}
+
+/* Layout Box */
+.layout-switcher {
+	margin:0 0 10px 0;
+	overflow:hidden;
+}
+
+.layout-switcher a.layout {
+	padding:8px 7px 7px 7px;
+	border-radius: 2px;
+	color: #5a5c5d;
+	border: 2px solid #EAEAEA;
+	width: 39px;
+	cursor: pointer;
+	float: left;
+	display: block;
+	margin: 0 6px 0 0;
+	text-align: center;
+	background: white;
+}
+
+.layout-switcher a.layout.current {
+	cursor: default;
+	border: 2px solid;
+}
+
+
+/* Color Switcher */
+.switcher-box {
+	height:auto;
+	overflow:hidden;
+	margin-bottom:6px;
+}
+
+.styleswitch {
+	width: 53px;
+    height: 53px;
+	display: block;
+	cursor: pointer;
+	margin:0;
+	float:left;
+}
+
+.styleswitch.current {
+	-moz-box-shadow: inset 0 0 5px #000;
+    -webkit-box-shadow: inset 0 0 5px #000;
+    box-shadow: inner 0 0 5px #000;
+}
+
+
+.styleswitch#orange { background-color:#d24814; }
+.styleswitch#red { background-color:#FF4444; }
+.styleswitch#turquoise { background-color:#13b0a5; }
+.styleswitch#green  { background-color:#b7b701; }
+.styleswitch#blue   { background-color:#2fa6a6; }
+.styleswitch#brown   { background-color:#807556; }
+.styleswitch#violet   { background-color:#c70272; }
+
+

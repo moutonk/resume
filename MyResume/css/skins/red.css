@@ -1,0 +1,19 @@
+/*
+* Theme Name: Kurr
+* File name: red.css
+* Theme URL: kurr.mordorthemes.com
+* Description: Kurr - Responsive Resume, Personal Portfolio Template
+* Author: Mordorthemes
+* Author URL: http://www.mordorthemes.com
+* Support: support@mordorthemes.com
+* Version: 1.0
+*/
+
+
+img.logo, a.social:hover, .cd-timeline-img, section#about, .date, .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span, .submit-button:hover{
+	background:#FF4444;
+}
+
+.work h3, a.social:link, a.social:visited, .link-box i, a.cv_btn:hover, a.social:hover, h4.chart-title, .box i, .personal-details li a:hover, .pushy .menu li a:hover, .pushy .bottom-content a:hover, button:hover, .portfolio-hover a:hover {
+	color:#FF4444;
+}

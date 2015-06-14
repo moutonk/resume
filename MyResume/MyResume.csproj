@@ -63,20 +63,36 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Web.DynamicData" />
-    <Reference Include="System.Web.Entity" />
-    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Abstractions" />
-    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
-    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -90,11 +106,14 @@
       <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http.WebRequest">
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -102,9 +121,11 @@
     </Reference>
     <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -128,6 +149,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -137,9 +159,71 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\foundation.css" />
+    <Content Include="css\foundation.min.css" />
+    <Content Include="css\kurr-font.css" />
+    <Content Include="css\layout.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="css\owl.transitions.css" />
+    <Content Include="css\skins\brown.css" />
+    <Content Include="css\skins\green.css" />
+    <Content Include="css\skins\orange.css" />
+    <Content Include="css\skins\red.css" />
+    <Content Include="css\skins\turquoise.css" />
+    <Content Include="css\skins\violet.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\styleswitcher.css" />
+    <Content Include="css\timeline.css" />
+    <Content Include="fonts\kurr-font.css" />
+    <Content Include="fonts\kurr.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\about.jpg" />
+    <Content Include="img\ajax-loader.gif" />
+    <Content Include="img\footer_bg.jpg" />
+    <Content Include="img\img1.jpg" />
+    <Content Include="img\img2.jpg" />
+    <Content Include="img\Loading.gif" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\nav.svg" />
+    <Content Include="img\overlay-pattern.png" />
+    <Content Include="img\portfolio\placeholder.jpg" />
+    <Content Include="img\portfolio\placeholder_big.jpg" />
+    <Content Include="img\quote_bg.jpg" />
+    <Content Include="img\subtle_dots.png" />
+    <Content Include="img\testimonial_bg.jpg" />
     <Content Include="scripts\ai.0.15.0-build12287.js" />
     <Content Include="scripts\ai.0.15.0-build12287.min.js" />
+    <Content Include="fonts\kurr.eot" />
+    <Content Include="fonts\kurr.ttf" />
+    <Content Include="fonts\kurr.woff" />
+    <Content Include="img\.gitkeep" />
+    <Content Include="php\contact.php" />
+    <None Include="Views\Home\IndexLeft.cshtml" />
+    <Content Include="scripts\custom.js" />
+    <Content Include="scripts\easypiechart.js" />
+    <Content Include="scripts\foundation.min.js" />
+    <Content Include="scripts\foundation\foundation.equalizer.js" />
+    <Content Include="scripts\foundation\foundation.js" />
+    <Content Include="scripts\foundation\foundation.magellan.js" />
+    <Content Include="scripts\foundation\foundation.offcanvas.js" />
+    <Content Include="scripts\foundation\foundation.reveal.js" />
+    <Content Include="scripts\jquery-cookie.js" />
+    <Content Include="scripts\jquery.backstretch.js" />
+    <Content Include="scripts\magnific-popup.js" />
+    <Content Include="scripts\owl.carousel.min.js" />
+    <Content Include="scripts\pushy_left.js" />
+    <Content Include="scripts\pushy_right.js" />
+    <Content Include="scripts\selectnav.js" />
+    <Content Include="scripts\smoothscroll.js" />
+    <Content Include="scripts\styleswitcher.js" />
+    <Content Include="scripts\vendor\fastclick.js" />
+    <Content Include="scripts\vendor\jquery.cookie.js" />
+    <Content Include="scripts\vendor\jquery.js" />
+    <Content Include="scripts\vendor\modernizr.js" />
+    <Content Include="scripts\vendor\placeholder.js" />
+    <Content Include="scripts\wow.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -151,7 +235,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +242,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationInsights.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\kevinmouton.pubxml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
