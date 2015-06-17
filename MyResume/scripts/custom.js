@@ -152,7 +152,19 @@ $("#home").backstretch([
       itemsMobile : 1 // itemsMobile disabled - inherit from itemsTablet option
     }); 
 
-
+    $("#prizesCarousel").owlCarousel({
+        navigation: false,
+        navigationText: ["<i class='icon kurr-left-open-big'></i>", "<i class='icon kurr-right-open-big'></i>"],
+        slideSpeed: 300,
+        pagination: true,
+        paginationSpeed: 400,
+        autoPlay: false,
+        items: 3, //10 items above 1000px browser width
+        itemsDesktop: [1000, 4], //5 items between 1000px and 901px
+        itemsDesktopSmall: [900, 2], // betweem 900px and 601px
+        itemsTablet: [600, 1], //2 items between 600 and 0
+        itemsMobile: 1 // itemsMobile disabled - inherit from itemsTablet option
+    });
 
 
 
