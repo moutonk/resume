@@ -177,7 +177,7 @@ $("#home").backstretch([
       slideSpeed : 300,
       pagination: true,
       paginationSpeed : 400,
-      autoPlay: 3000,
+      autoPlay: 8000,
       singleItem : true
     });
 

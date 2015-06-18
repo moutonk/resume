@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/skins/red.css" name="colors" />
     -->
     <!-- Style Switcher Box delete for remove styleswitcher-->
-    <link rel="stylesheet" href="../../css/styleswitcher.css">
+    @*<link rel="stylesheet" href="../../css/styleswitcher.css">*@
     <!-- google fonts -->
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
@@ -52,6 +52,7 @@
             <li><a class="inner-link" href="#skills">Skills</a></li>
             <li><a class="inner-link" href="#portfolio">Portfolio</a></li>
             <li><a class="inner-link" href="#experience">Experience</a></li>
+            <li><a class="inner-link" href="#prizes">Prizes</a></li>
             <li><a class="inner-link" href="#contact">Contact</a></li>
         </ul>
         <!-- end menu -->
@@ -75,7 +76,7 @@
             <div class="medium-8 medium-text-center medium-centered small-8 small-text-centered small-centered columns">
                 <img class="logo" src="../../img/logo.png" alt="" /><br />
                 <h3 class="white text-center">KEVIN MOUTON</h3>
-                <p class="white text-center">Resume / CV</p>
+                <p class="white text-center">Resume</p>
             </div>
         </div>
         <!-- mouse wheel on slider revolution (custom) -->
@@ -97,7 +98,7 @@
             <div class="row bot-70">
                 <div class="medium-5 columns">
                     <h2 class="white">About <strong>ME</strong></h2>
-                    <p>Maecenas nec odio et ante tincidunt tempus.</p>
+                    @*<p>Maecenas nec odio et ante tincidunt tempus.</p>*@
                 </div>
                 @*<div class="medium-1 columns">*@
                 @*<i class="icon kurr-speech-streamline-talk-user big"></i>*@
@@ -202,7 +203,7 @@
                     <div class="box">
                         <i class="icon kurr-globe big"></i>
                         <h5>Travelling</h5>
-                        <p>“The world is a book and those who do not travel read only one page.”<br />― Augustine of Hippo<br /><br /><br /><br /><br /></p>
+                        <p>“The world is a book and those who do not travel read only one page.”<br />― Augustine of Hippo<br /><br /><br /><br /></p>
                     </div>
 
                     <!-- end box -->
@@ -261,8 +262,9 @@
                         <div>
                             <div class="large-9 large-centered medium-12 medium-centered columns">
                                 <div class="large-12 medium-11 columns">
-                                    <h3 class="white semi-bold">Original theme<br />Easy and funny to customize </h3>
-                                    <h4 class="white bordered">Paula Doe - Microsoft -</h4>
+                                    <h3 class="white semi-bold">"Kevin is a resourceful developer. He appropriates the customers needs quickly and is efficient is his tasks"</h3>
+                                    <h4 class="white bordered">Cyril Guyot - Project Manager - MCNEXT -</h4>
+                                    <br /><br /><br />
                                 </div>
                             </div>
                         </div>
@@ -277,17 +279,6 @@
                             </div>
                         </div>
                         <!-- end slide -->
-                        <!-- start slide -->
-                        <div>
-                            <div class="large-9 large-centered medium-12 medium-centered columns">
-                                <div class="large-12 medium-11 columns">
-                                    <h3 class="white semi-bold">this theme is fully responsive<br />Fix perfectly on every device</h3>
-                                    <h4 class="white bordered">Paul Doe - Apple apps developer -</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end slide -->
-
                     </div>
                     <!-- end#testimonial carousel -->
 
@@ -434,7 +425,7 @@
                         <img src="../../img/portfolio/placeholder.jpg" alt="">
                     </div>
                     <div class="project-info">
-                        <h3>Title Project</h3>
+                        <h3>Sugar Mole</h3>
                         <p>Logo</p>
                     </div>
                 </div>
@@ -446,7 +437,7 @@
                         <img src="../../img/portfolio/placeholder.jpg" alt="">
                     </div>
                     <div class="project-info">
-                        <h3>Title Project</h3>
+                        <h3>Spicer</h3>
                         <p>Web Design</p>
                     </div>
                 </div>
@@ -458,7 +449,7 @@
                         <img src="../../img/portfolio/placeholder.jpg" alt="">
                     </div>
                     <div class="project-info">
-                        <h3>Title Project</h3>
+                        <h3>PinMessaging</h3>
                         <p>Development</p>
                     </div>
                 </div>
@@ -481,15 +472,8 @@
                     <h2>My <strong>EXPERIENCE</strong></h2>
                     <p>"Choose a job you love, and you will never have to work a day in your life."<br />― Confucius</p>
                 </div>
-                @*<div class="medium-1 columns">*@
-                @*<i class="icon kurr-clock-streamline-time big"></i>*@
-                @*</div>
-                    <div class="medium-6 columns">*@
-                @*<p>Based on <span class="bold">K.I.S.S. principle</span>, i'm suitable for personal, portfolio, corporate or creative use.<br />
-                    <span class="bold">Easy and funny to customize </span>i'm the perfect partner for your next project</p>*@
-                @*</div>*@
             </div>
-            <div id="cd-timeline" class="cd-container">
+            <div id="cd-timeline" class="cd-container" style="margin-bottom: -150px">
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
                         <i class="icon kurr-design-pencil-rule-streamline"></i>
@@ -553,7 +537,7 @@
                         </ul>
                         <span class="cd-date">From Sep 2014 to Feb 2015</span>
                     </div> <!-- cd-timeline-content -->
-                </div> <!-- cd-timeline-block -->
+                </div> 
 
                 <div class="cd-timeline-block">
                     <div class="cd-timeline-img">
@@ -573,8 +557,8 @@
                         </ul>
                         <span class="cd-date">From May 2013 to Oct 2013</span>
                     </div> <!-- cd-timeline-content -->
-                </div> <!-- cd-timeline-block -->
-            </div> <!-- cd-timeline -->
+                </div> 
+            </div>
         </section>
         <!-- end section #experience -->
         
@@ -586,15 +570,17 @@
                     <h3 class="bot-70">My <strong>PRIZES</strong></h3>
                 </div>
                 <div>
-                    <div class="box medium-5 columns" style="margin-left: 70px">
+                    <div class="box medium-4 columns" style="margin-left: 15%">
                         <i class="icon kurr-trophy-1 big"></i>
-                        <h5>Hack4Europe 2015 category Energy </h5>
-                        <h6><b></b></h6><p><br />Hack4Europe it's 120 teams and 300 developers coming from 22 different countries<br /><a href="http://hack4europe.com/">http://hack4europe.com/</a></p>
+                        <h5>Hack4Europe 2015</h5>
+                        <h1>#1</h1>
+                        <h6><b></b></h6><p><br />Hack4Europe it's 120 teams and 300 developers coming from 22 different countries. We ranked #1 in the category Energy with a project called Sugar Mole.<br /><a href="http://hack4europe.com/">http://hack4europe.com/</a></p>
                     </div>
-                    <div class="box medium-5 columns" style="margin-right: 70px">
-                            <i class="icon kurr-trophy-1 big"></i>
+                    <div class="box medium-4 columns" style="margin-right: 15%">
+                        <i class="icon kurr-trophy-1 big"></i>
                         <h5>Burbank Game+Hack 2014</h5>
-                        <p><br />Burbank Game+Hack it's 22 teams and 85 developers<br /><a href="http://www.burbankgamehack.com/">http://www.burbankgamehack.com/</a>  </p>
+                        <h1>#4</h1>
+                        <p><br />Burbank Game+Hack it's 22 teams and 85 developers. We ranked #4 with a platform game.<br /><a href="http://www.burbankgamehack.com/">http://www.burbankgamehack.com/</a><br /><br /><br />  </p>
                     </div>
                 </div>
             </div>
@@ -653,7 +639,7 @@
                     <div class="about">
                         <i class="icon kurr-iphone-streamline"></i>
                         <h3>Phone</h3>
-                        <p>+33 675 34 6177</p>
+                        <p>06 75 34 61 77<br/>+33 675 34 6177 </p>
                     </div>
                 </div>
                 <!-- end link-box -->
@@ -686,7 +672,7 @@
         <!-- start footer -->
         <footer>
             <div class="row text-center">
-                <h5 class="text-center">Kurr - 2014 © mordorthemes. All rights reserved.</h5>
+                @*<h5 class="text-center">Kurr - 2014 © mordorthemes. All rights reserved.</h5>*@
             </div>
         </footer>
         <!-- end footer -->
@@ -706,7 +692,7 @@
     <script type="text/javascript" src="../../scripts/owl.carousel.min.js"></script>
     <script src="../../scripts/custom.js"></script>
     <!-- Start Style Switcher to remove -->
-    <script src="../../scripts/styleswitcher.js"></script>
+    @*<script src="../../scripts/styleswitcher.js"></script>*@
     <script src="../../scripts/jquery-cookie.js"></script>
     <!-- End Style Switcher -->
     <script>
