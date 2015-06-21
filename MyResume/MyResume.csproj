@@ -179,6 +179,10 @@
     <Content Include="fonts\kurr-font.css" />
     <Content Include="fonts\kurr.svg" />
     <Content Include="Global.asax" />
+    <Content Include="img\Down4.png" />
+    <Content Include="img\foot.jpg" />
+    <Content Include="img\milkyway.jpg" />
+    <Content Include="img\sky.jpg" />
     <Content Include="img\about.jpg" />
     <Content Include="img\ajax-loader.gif" />
     <Content Include="img\footer_bg.jpg" />
@@ -186,6 +190,7 @@
     <Content Include="img\img2.jpg" />
     <Content Include="img\Loading.gif" />
     <Content Include="img\logo.png" />
+    <Content Include="img\moi.jpg" />
     <Content Include="img\nav.svg" />
     <Content Include="img\overlay-pattern.png" />
     <Content Include="img\pinmessaging\pinhome.jpg" />
@@ -214,6 +219,7 @@
     <Content Include="fonts\kurr.woff" />
     <Content Include="img\.gitkeep" />
     <Content Include="php\contact.php" />
+    <Content Include="CV\CV Kevin Mouton AU XL.pdf" />
     <None Include="Views\Home\IndexLeft.cshtml" />
     <Content Include="scripts\custom.js" />
     <Content Include="scripts\easypiechart.js" />

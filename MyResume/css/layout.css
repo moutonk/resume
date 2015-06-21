@@ -176,6 +176,18 @@ img.logo{
     width: 100%;
 	z-index:-1;
 }
+/* overlay */
+.bg_overlay2 {
+    background-image: url("../img/milkyway.jpg") !important;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100% 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	z-index:-1;
+}
 /* Box */
 .box{
 	text-align:center;
