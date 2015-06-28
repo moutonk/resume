@@ -203,6 +203,8 @@
     <Content Include="img\portfolio\placeholder.jpg" />
     <Content Include="img\portfolio\placeholder_big.jpg" />
     <Content Include="img\quote_bg.jpg" />
+    <Content Include="img\spicer\spicer1.jpg" />
+    <Content Include="img\spicer\spicer2.jpg" />
     <Content Include="img\subtle_dots.png" />
     <Content Include="img\sugarmole\action square.png" />
     <Content Include="img\sugarmole\actions.png" />
@@ -255,7 +257,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="img\spicer\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
