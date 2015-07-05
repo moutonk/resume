@@ -511,8 +511,8 @@ nav ul.menu li a{
 }
 /* bottom content */
 .pushy .bottom-content{ 
-	position: absolute; 
-	bottom: 44px; 
+	/*position: absolute;*/ 
+	/*bottom: 44px;*/ 
 	width: 100%; 
 	left: 0px; 
 	text-transform: uppercase; 
