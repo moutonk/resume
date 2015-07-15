@@ -105,7 +105,7 @@ section#experience{
 
 section#social{
 	border-bottom:none;
-	background:url(../img/footer_bg.jpg) no-repeat center center;
+	/*background:url(../img/footer_bg.jpg) no-repeat center center;*/
 }
 section#social h3{
 	position: relative;
@@ -811,7 +811,7 @@ nav ul.menu li a{
 	Testimonials
 =============================================== */
 section#testimonials {
-	background:url(../img/testimonial_bg.jpg) no-repeat center center;
+	/*background:url(../img/testimonial_bg.jpg) no-repeat center center;*/
 	position:relative;
 	text-align:center;
 	border-bottom:none;
